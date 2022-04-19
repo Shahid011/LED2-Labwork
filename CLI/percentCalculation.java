@@ -6,7 +6,7 @@ public class percentCalculation {
     public static void main(String[] args) {
         //initailize variables
         float oops, programing, Business, economics, percent, markObt;
-        Scanner src = new Scanner(System.in);
+        var src = new Scanner(System.in);
         System.out.print("oops: ");
         oops = src.nextFloat();
         Scanner pro = new Scanner(System.in);
@@ -33,8 +33,6 @@ public class percentCalculation {
             System.out.print("You passed with third second class ");
             System.out.print("Fail");
         }
-
-        
 
 
     }
