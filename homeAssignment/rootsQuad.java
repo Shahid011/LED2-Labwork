@@ -17,7 +17,7 @@ public class rootsQuad {
         System.out.print("Enter the value of a:");
         double d = input.nextDouble();
 
-        double 
+        double char
 
         
         
