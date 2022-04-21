@@ -4,11 +4,16 @@ import java.util.Scanner;
 
 public class numDayMnth {
     public static void main(String[] args) {
-        int month;
+        int month, year;
         Scanner scr = new Scanner(System.in);
         System.out.print("Enter months from 1-12: ");
+      
 
         month = scr.nextInt();
+        Scanner pcr = new Scanner(System.in);
+        year = pcr.nextInt();
+        
+        System.out.print("Enter current year: ");
 
         if(month == 1 ){
             System.out.print("January");
@@ -16,6 +21,11 @@ public class numDayMnth {
         }else if(month == 2){
             System.out.println("February");
             System.out.println("28/29 days");
+            if((year%400 == 0) || ((year % 4 ==0) && (year % 100 != 0))) {
+             System.out.print("29 days");
+            }else{
+                System.out.print("28 days");
+            }
 
         }else if(month==3){
             System.out.println("March");
