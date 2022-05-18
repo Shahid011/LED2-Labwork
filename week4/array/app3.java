@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class app3 {
     public static void main(String[] args) {
-        System.out.println(returnArray().toString());;
+        System.out.println(returnArray());;
     }
     public static  int[] returnArray(){
         int[]arr=new int[5];

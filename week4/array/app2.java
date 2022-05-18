@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class app2 {
     public static void main(String[] args) {
-        System.out.println(proOf2());;
+        System.out.println(proOf2());
     }
     public static int proOf2(){
         int[]arr=new int[5];

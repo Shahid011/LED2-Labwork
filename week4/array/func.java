@@ -2,7 +2,6 @@ package week4.array;
 
 import java.util.Scanner;
 
-import javax.sound.midi.Track;
 
 public class func {
     public static void main(String[] args) {
